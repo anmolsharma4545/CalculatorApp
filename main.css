@@ -72,21 +72,34 @@ body{
 @media screen and (max-width:1400px){
 	.container{
 		width: 100%;
-		height: 100%;
+		height: 500px;
 	}
-
+	body{
+		align-items: stretch;
+		min-height: 50vh;
+	}
 
 	.calculator{
 		width: 100%;
+		height: 700px;
+		position: initial;
 		
 	}
 	.calculator span{
 		width: 100%;
+		height: 100%;
 		
 	}
+.calculator .value{
+	height: 100%;
+}
+
 	.calculator span.clear{
 		width: 100%;
 
+	}
+	.calculator span.plus{
+		height: 100%;
 	}
 }
 
