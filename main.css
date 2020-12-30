@@ -81,7 +81,7 @@ body{
 
 	.calculator{
 		width: 100%;
-		height: 700px;
+		height: 100vh;
 		position: initial;
 		
 	}
